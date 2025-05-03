@@ -1,0 +1,78 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* --- HEADER (Food, LLC) --- */
+  .navbar-default {
+    background-color: #999 !important;
+    border: none;
+    margin: 0;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: black !important;
+    font-weight: bold;
+  }
+  
+  /* Toggle button (3 gạch) */
+  .navbar-default .navbar-toggle {
+    border: 1px solid black;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+  }
+  .navbar-default .navbar-toggle:not(.collapsed) .icon-bar {
+    background-color: white;
+  }
+  
+  /* --- DROPDOWN MENU ITEMS (Chicken, Beef, Sushi) --- */
+  .navbar-nav > li > a,
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus,
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > .open > a:focus {
+    background-color: transparent !important;
+    color: black !important;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+  }
+  /* Bỏ nền xám cho từng dòng menu dropdown */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-nav > li {
+  background-color: white !important;
+}
+
+
+  
+  /* --- OUR MENU --- */
+  .our-menu {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .section-box {
+    background-color: #b3b3b3;
+    padding: 5px 20px 20px 20px; /* padding-top giảm mạnh còn 5px */
+    border: 1px solid black;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+  
+  
+  
+  .section-box h3 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .section-box p {
+    text-align: justify;
+  }
+  

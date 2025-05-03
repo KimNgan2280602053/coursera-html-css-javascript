@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  /* General section styling */
+  .menu-item {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+  }
+  
+  .menu-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #999;
+    border: 1px solid black;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+  
+  /* Unique colors */
+  .chicken {
+    background-color: #ffcccb;
+  }
+  
+  .beef {
+    background-color: #d2b48c;
+  }
+  
+  .sushi {
+    background-color: #b0e0e6;
+  }
+  
+  /* Desktop (>= 992px) */
+  @media (min-width: 992px) {
+    .menu-item {
+      width: 31.33%;
+      margin: 1%;
+    }
+  }
+  
+  /* Tablet (768px - 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .menu-item {
+      width: 48%;
+      margin: 1%;
+    }
+  
+    .menu-item:nth-child(3) {
+      width: 98%;
+    }
+  }
+  
+  /* Mobile (<= 767px) */
+  @media (max-width: 767px) {
+    .menu-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
